@@ -1,4 +1,4 @@
-Notes
+These are notes of the course.
 
 Course Name: Introduction to Recommender Systems: Non-Personalized and Content-Based by University of Minnesota
 
