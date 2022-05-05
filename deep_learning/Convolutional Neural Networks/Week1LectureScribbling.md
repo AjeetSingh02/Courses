@@ -1,6 +1,4 @@
-Week 1 
-
-Video: Padding
+# Video: Padding
 
   - By Convention we do padding with 0
   - We do padding because of two reasons:
