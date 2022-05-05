@@ -11,4 +11,4 @@ Video: Padding
       - No padding done
     - Same Convolution
       - Padding is done so that image size before and after padding is same
- - 
+ - By convention **f** (filter shape. 3cross3 filter mean f=3) is always odd.
