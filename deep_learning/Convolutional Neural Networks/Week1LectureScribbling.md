@@ -18,6 +18,6 @@
 
 
 # Video: Convolution Over Volume
-  - A 3D image when convolved with a 3D filter gives a 2D ouput. Example: 6*6*3 conv 3*3*3 = 4*4.
+  - A 3D image when convolved with a 3D filter gives a 2D ouput. Example: 6 x 6 x 3 conv 3 x 3 x 3 = 4 x 4.
   - The dimensions of input image and filter should be same.
   - We can apply multiple filter at the same time. In that case the output of convolution will be a N dimension image. N is the number of filters you used. The outputs images after convolution will be stacked to form N dimension image. If number of filters used on a image are 2 then the output will be a 2 dimension image.
