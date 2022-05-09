@@ -13,4 +13,5 @@
 
 
 # Video: Strided Convolution
-  - By Convention if a convolution will be done only when filter is fully over the image+padding. If any row/column of filter is beyond the image then dont convolve
+  - By Convention Convolution will be done only when filter is fully over the image+padding. If any row/column of filter is beyond the image then dont convolve
+  - In mathematics, Convolution operation involves flipping the filter horizontally and vertically before doing dot product. Whereas in Deep Learning literature direct filter is used for dot product, no flipping is done
