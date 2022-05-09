@@ -15,3 +15,9 @@
 # Video: Strided Convolution
   - By Convention Convolution will be done only when filter is fully over the image+padding. If any row/column of filter is beyond the image then dont convolve
   - In mathematics, Convolution operation involves flipping the filter horizontally and vertically before doing dot product. Whereas in Deep Learning literature direct filter is used for dot product, no flipping is done
+
+
+# Video: Convolution Over Volume
+  - A 3D image when convolved with one 3D filter gives a 2D ouput. Example: 6*6*3 conv 3*3*3 = 4*4.
+  - The dimensions of input image and filter should be same.
+  - We can apply multiple filter at the same time. In that case the output of convolution will be a N dimension image. N is the number of filters you used. The outputs images after convolution will be stacked to form N dimension image. If number of filters used on a image are 2 then the output will be a 2 dimension image.
