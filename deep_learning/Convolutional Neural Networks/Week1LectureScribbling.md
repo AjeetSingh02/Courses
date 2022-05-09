@@ -10,3 +10,7 @@
     - Same Convolution
       - Padding is done so that image size before and after padding is same
  - By convention **f** (filter shape. 3cross3 filter mean f=3) is always odd.
+
+
+# Video: Strided Convolution
+  - By Convention if a convolution will be done only when filter is fully over the image+padding. If any row/column of filter is beyond the image then dont convolve
