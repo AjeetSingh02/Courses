@@ -51,6 +51,12 @@
            - But if you look at the number of parameters with convolutional layer, each filter is 5x5. So, each filter has 25 parameters, plus a bias parameter so 26 parameters per filter, and you have six filters, so, the total number of parameters are 156 parameters. Thus, the number of parameters with conv layer are quite small.
            - The reasons a ConvNet has so few parameters are:
                 - Parameter Sharing
-                    - This
+                    - A feature detector (such as a vertical edge detector) that's useful in one part of the image is probably useful in another part of image.
+                    - i.e Same fxf filter is used over whole image to generate the output. Generally we donot need to learn seperate feature/filter for upper right part of image and seperate for lower right. One filter works for whole image. This sharing filter and thus parameters is what reduces number of total parameters.
                 - Sparsity of connections
+                    - In each layer, each output value depends only on a small number of inputs
+                    - i.e, If we have a 3x3 filter and a image of 6x6 and the output of convolution is 4x4. So each number/pixel/cell in the output matrix will depend only on 3x3 number of numbers/pixels/cells in input matrix/image with which convolution happened. The other input pixels don't have any affect on the output pixel.
+            - Because of these two reasons a CNN has lot few parameters and still doesn't overfit.
+        - Translation Covariance
+            - This
                     - That
