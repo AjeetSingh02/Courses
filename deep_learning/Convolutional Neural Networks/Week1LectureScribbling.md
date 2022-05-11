@@ -41,4 +41,4 @@
         - The second one which is also followed by a lot of people is
             - convolution is a seperate layer and pooling is a seperate layer
 
-    - Typical CNN shape: input -> conv -> pool -> conv -> pool -> flatten -> fully connected (AKA dense) -> fully connected -> Softmax -> Output
+   - Typical CNN shape: input -> conv -> pool -> conv -> pool -> flatten -> fully connected (AKA dense) -> fully connected -> Softmax -> Output
