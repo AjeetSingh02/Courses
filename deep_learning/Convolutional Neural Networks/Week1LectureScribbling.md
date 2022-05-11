@@ -57,6 +57,7 @@
                     - In each layer, each output value depends only on a small number of inputs
                     - i.e, If we have a 3x3 filter and a image of 6x6 and the output of convolution is 4x4. So each number/pixel/cell in the output matrix will depend only on 3x3 number of numbers/pixels/cells in input matrix/image with which convolution happened. The other input pixels don't have any affect on the output pixel.
             - Because of these two reasons a CNN has lot few parameters and still doesn't overfit.
-        - Translation Covariance
-            - This
-                    - That
+        - Translation Invariance
+            - Example: An image with cat shifted a couple of pixels to the right as compared to earlier image, is still pretty clearly a picture of cat. 
+            - Convolutional structure helps the neural network encode the fact that an image shifted a few pixels should result in pretty similar features and should probably be assigned the same output label. 
+            - The fact that you are applying the same filter, in all the positions of the image, both in the early layers and in the later layers helps a neural network automatically learn to be more robust or to better capture the desirable property of translation invariance.
