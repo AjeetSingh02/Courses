@@ -45,5 +45,8 @@
 
 
 # Video: Why Convolution
-   - Why Convolution works best for Images. Few reasons
-       - this
+   - Why Convolution works best for Images. Few reasons:
+       - Computational Complexity:
+           - Let's say you have a 32x32x3 dimensional image. And you use 5x5 filter with six filters. And so, this gives you a 28x28x6 dimensional output. So, 32x32x3 is 3072, and 28x28x6 is 4,704. And so, if you were to create a neural network with 3072 units in one layer, and with 4704 units in the next layer, and if you were to connect every one of these neurons, then the number of parameters in  weight matrix would be 3072 x 4704 which is about 14 million. So, that's just a lot of parameters to train. And today you can train neural networks with even more parameters than 14 million, but considering that this is just a pretty small image, this is a lot of parameters to train. And of course, if this were to be 1000 x 1000 image, then your weight matrix will just become too large.
+       - Parameter Sharing
+       - Sparsity of connections
