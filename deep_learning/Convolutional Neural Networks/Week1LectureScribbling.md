@@ -42,3 +42,8 @@
             - convolution is a seperate layer and pooling is a seperate layer
 
    - Typical CNN shape: input -> conv -> pool -> conv -> pool -> flatten -> fully connected (AKA dense) -> fully connected -> Softmax -> Output
+
+
+# Video: Why Convolution
+   - Why Convolution works best for Images. Few reasons
+       - this
