@@ -31,3 +31,12 @@
         - So basically the idea of making features more robust is just an intuition but its not a solid proof.
 
    - Max Pooling is done more often that Average Pooling. Average pooling is rarely used and most of the time in deeper layer.
+   - Padding can also be used but its almost never used in practice.
+   - There are no parameters in Pooling. Only Hyperparameters (f,s,p). So there is nothing for backpropagation to learn.
+
+Video: Neural Network Example
+    - What is called a layer in ConvNet (CNN) 
+        - There are two conventions for it. First one which is mostly followed and followed by Andrew NG too is
+            - Convolution + pooling combined is 1 layer. The thought process is that generally a layer has parameters to learn but since max pooling doesnt have parameters and only hyperparameters it can't be called a layer. So thats why Convolution + pooling combined will be called 1 layer.
+        - The second one which is also followed by a lot of people is
+            - convolution is a seperate layer and pooling is a seperate layer
